@@ -1,5 +1,12 @@
 import argparse
-from core import repo, index, commit, push, pull, branch, checkout
+import os
+import sys
+
+# Add the parent directory to Python path to ensure crpt can be imported
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+# Import modules with proper package qualification
+from crpt.core import repo, index, commit, push, pull, branch, checkout
 
 def main():
     parser = argparse.ArgumentParser(prog='crpt', description="Custom version control tool")
