@@ -1,0 +1,2 @@
+Message: Add next.config.mjs
+next.config.mjs:ab63021709f45312ae1b63d0fda96bdcce7b372e

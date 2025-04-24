@@ -1,0 +1,1 @@
+Add next.config.mjs

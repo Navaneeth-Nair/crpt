@@ -175,7 +175,7 @@ To add new features:
 
 ## License
 
-[MIT License](LICENSE)
+[MIT License](https://www.mit.edu/~amini/LICENSE.md)
 
 ## Contributors
 
